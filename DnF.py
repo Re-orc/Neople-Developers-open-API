@@ -11,7 +11,7 @@ class Nexon_game():
     def __init__(self):
         self.sv = servers
         self.cn = cname
-        self.key = {'apikey':'Ovt6Ebq4zGY0R3SVm735K866z4UVVnDk',}
+        self.key = {'apikey':'',}
         
     def chracter_info(self):
         url = requests.get('https://api.neople.co.kr/df/servers/'+self.sv+
